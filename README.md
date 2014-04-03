@@ -1,8 +1,8 @@
 HTML5 Site
 ===
 
-my website at http://weems.de
-
+My Personal Website at http://weems.de
+<a href="http://twitter.com/weems">@weems</a>
 
 sources:
 
