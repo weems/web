@@ -3,7 +3,7 @@ HTML5 Site
 
 My Personal Website at http://weems.de<br>
 
-<p>twitter -- </p><a href="http://twitter.com/weems">@weems</a>
+twitter --<a href="http://twitter.com/weems">@weems</a>
 
 sources:
 
