@@ -1,7 +1,7 @@
 web
 ===
 
-my website at weems.de
+my website at http://weems.de
 
 
 sources:
