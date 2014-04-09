@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+</head>
+<body>
+<!-- your content -->
+
+<!-- //your content -->
+<!-- form area -->
+<h3>Contact Us</h3>
+<form method="post" action="submission.php">
+<p><b>Information Request</b><br />Select the items that apply, and then let us know how to contact you.</p>
+    <p>Please select your service of interest:
+		<select name="ProductOrService">
+		<option value="" label="select" selected="selected">- Select One -</option>
+		<option value="QuoteRequest" label="quote">Quote Request</option>
+		<option value="GeneralInfo" label="gen">General Info</option>
+		<option value="Other" label="other">Other</option>
+		</select></p>
+
+    <table>
+    <tr><td align="right"><em>Name</em>*</td><td><input type="text" name="name" value size="35"></td></tr>
+    <tr><td align="right"><em>Title</em></td><td><input type="text" name="title" value size="35"></td></tr>
+    <tr><td align="right"><em>Company</em></td><td><input type="text" name="Company" value size="35"></td></tr>
+    <tr><td align="right"><em>Address</em></td><td><textarea name="address" rows="3" cols="35"></textarea></td></tr>
+    <tr><td align="right"><em>E-mail</em>*</td><td><input type="text" name="email" value size="35"></td></tr>
+    <tr><td align="right"><em>Phone</em></td><td><input type="text" name="phone" value size="35"></td></tr>
+    <tr><td align="right"><em>Message</em>*</td><td><textarea name="comments" cols="45" rows="5" id="comments"></textarea></td></tr>
+		</table>
+    <p><input type="submit" value="Submit Request"> <input type="reset" value="Reset Form"> </p>
+		<p><span>* is required</span></p>
+</form><br />
+<!-- //form area -->
+<!-- your content -->
+
+<!-- your content -->
+</body>
+</html>
